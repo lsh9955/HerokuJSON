@@ -1,16 +1,68 @@
 {
-  "posts":[
+  "days": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "day": 1
+    },
+    {
+      "id": 2,
+      "day": 2
+    },
+    {
+      "id": 3,
+      "day": 3
+    },
+    {
+      "day": 4,
+      "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
     }
   ],
-  "comments" : [
+  "words": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "day": 1,
+      "eng": "book",
+      "kor": "책",
+      "isDone": true
+    },
+    {
+      "id": 3,
+      "day": 2,
+      "eng": "car",
+      "kor": "자동차",
+      "isDone": false
+    },
+    {
+      "id": 5,
+      "day": 3,
+      "eng": "school",
+      "kor": "학교",
+      "isDone": false
+    },
+    {
+      "id": 6,
+      "day": 3,
+      "eng": "pencil",
+      "kor": "연필",
+      "isDone": false
+    },
+    {
+      "day": "2",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false,
+      "id": 8
+    },
+    {
+      "day": "3",
+      "eng": "cat",
+      "kor": "고양이",
+      "isDone": false,
+      "id": 9
     }
   ]
 }
